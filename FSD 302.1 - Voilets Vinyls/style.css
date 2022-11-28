@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+header {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-image: url("./img/img/Records.jpg");
+}
+h2 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span {
+  font-weight: bold;
+}
+h2:first-of-type {
+  background-color: #ef8354;
+}
+#Selling {
+  background-color: #0e7c7b;
+}
+#Live {
+  background-color: #9c538b;
+}
+a {
+  color: #ef8354;
+}
+a:hover {
+  color: #9c528b;
+}
