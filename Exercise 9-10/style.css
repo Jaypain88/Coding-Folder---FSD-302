@@ -1,0 +1,36 @@
+/*Very Small screen size-less than 600px */
+@media only screen and (max-width: 600px) {
+  body {background-color: black;}
+  #S, #M, #L, #VL {display: none;}
+}
+
+/* Small screen size 601-767px */
+@media only screen and (min-width: 601px) {
+  body {background-color: green;}
+  #VS, #M, #L, #VL {display: none;}
+}
+
+/* medium screen size 768-991px */
+@media only screen and (min-width: 768px) {
+  body {background-color: orange;}
+  #S, #VS, #L, #VL {display: none;}
+}
+
+/* Large screen size 992-1199px */
+@media only screen and (min-width: 992px) {
+  body {background-color: blue;}
+  #VS, #S, #L, #VL {display: none;}
+}
+
+/* Extra-Large screen size above 1200px */
+@media only screen and (min-width: 1200px) {
+  body {background-color: violet; text-align: center;}
+  #VS, #S, #M, #L {display: none;}
+}
+
+body {
+  color: red;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
